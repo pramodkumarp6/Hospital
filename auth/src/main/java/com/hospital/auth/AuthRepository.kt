@@ -1,9 +1,12 @@
 package com.hospital.auth
 
-import com.pramod.hospital.core.network.ApiService
+import com.hospital.auth.datasource.AuthService
 import javax.inject.Inject
+import javax.inject.Singleton
 
-class AuthRepository @Inject constructor(private val apiService: ApiService) {
+
+@Singleton
+class AuthRepository @Inject constructor(private val apiService: AuthService) {
 
 
 
