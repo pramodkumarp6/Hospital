@@ -1,4 +1,4 @@
-package com.pramod.hospital.core.utils
+package com.hospital.core
 
 import android.content.Context
 import android.widget.Toast

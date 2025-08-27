@@ -7,6 +7,7 @@ import androidx.compose.ui.tooling.preview.Preview
 
 
 @Composable
+@Preview(showBackground =true)
 fun SmartButton( ){
     Button(onClick = {}) {
         Text( text = "Hello")

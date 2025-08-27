@@ -1,4 +1,4 @@
-package com.pramod.hospital.core.utils
+package com.hospital.core
 
 import android.util.Log
 
